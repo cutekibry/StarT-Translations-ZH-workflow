@@ -109,7 +109,7 @@ jobs:
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
       - name: Zip CNPack folder
-        run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
+        run: zip -r "StarT-ZH-${{ env.datetime }}.zip" -C CNPack/kubejs assets -C CNPack pack.mcmeta pack.png
 
       - name: Create Release
         uses: ncipollo/release-action@v1
@@ -121,7 +121,7 @@ jobs:
 
             ${{ steps.download_error.outcome == 'success' && '⚠ 注意：本次同步检测到 FTB 任务文本颜色可能存在错误，详见 release 附带的 error_report.html。' || '✔ 未发现异常颜色，FTB任务颜色字符检查通过。' }}
           artifacts: |
-            VM-CNPack-${{ env.datetime }}.zip
+            StarT-ZH-${{ env.datetime }}.zip
             error_report.html
           draft: false
           prerelease: true
