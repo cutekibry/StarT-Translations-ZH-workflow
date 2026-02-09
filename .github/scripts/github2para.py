@@ -12,7 +12,7 @@ from LangSpliter import split_and_process_all
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
 
-target_languages = ["zh_cn"]
+target_languages = ["zh_cn", "zh_hk", "zh_tw"]
 
 
 async def upload_file(api_client, project_id, path, file, existing_files_dict):
