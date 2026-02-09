@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import shutil
 from pprint import pprint
 
 import paratranz_client
@@ -10,6 +11,8 @@ from LangSpliter import split_and_process_all
 
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
+
+target_languages = ["zh_cn"]
 
 
 async def upload_file(api_client, project_id, path, file, existing_files_dict):
@@ -99,6 +102,15 @@ async def main():
     if not files:
         print("在 'Source' 目录中未找到任何 'en_us.json' 文件。请检查文件是否存在。")
         return
+    
+    # 为每种目标语言创建原文件副本，原有的 en_us.json 不再上传
+    new_files = []
+    for file in files:
+        for lang in target_languages:
+            new_file = file.replace("en_us", lang)
+            shutil.copyfile(file, new_file)
+            new_files.append(new_file)
+    files = new_files
 
     # 预先获取文件列表
     project_id = int(os.environ["PROJECT_ID"])
