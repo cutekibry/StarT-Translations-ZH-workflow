@@ -4,7 +4,7 @@
 
 | CurseForge     | 加载器     | 整合包版本         | 汉化维护状态 |
 | :------------- | :--------- | :----------------- | :----------- |
-| [链接]([原链接](https://www.curseforge.com/minecraft/modpacks/star-technology)) | Forge | 1.20.1 ETA 3 HOTFIX 2 | 翻译中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/star-technology) | Forge | 1.20.1 ETA 3 HOTFIX 2 | 翻译中       |
 
 ### 📌 汉化相关
 
