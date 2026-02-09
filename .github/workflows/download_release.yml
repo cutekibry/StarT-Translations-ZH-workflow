@@ -109,7 +109,11 @@ jobs:
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
       - name: Zip CNPack folder
-        run: zip -r "StarT-ZH-${{ env.datetime }}.zip" -C CNPack/kubejs assets -C CNPack pack.mcmeta pack.png
+        run: |
+          cd CNPack
+          zip "../StarT-ZH-${{ env.datetime }}.zip" pack.mcmeta pack.png
+          cd kubejs
+          zip -r "../../StarT-ZH-${{ env.datetime }}.zip" assets
 
       - name: Create Release
         uses: ncipollo/release-action@v1
