@@ -364,7 +364,7 @@
     "block.gtceu.super_electric_ore_factory.tooltip.2":"支持§b吞吐量提升§r和§c亚时间刻并行",
     "block.gtceu.super_implosion_compressor":"高强聚爆机",
     "block.gtceu.super_implosion_compressor.tooltip.0":"§7连锁爆炸反应使这台机器能以极高的速度运行。",
-    "block.gtceu.super_implosion_compressor.tooltip.1":"§7线圈对该机器的影响方式与§f多级熔炉§7相同。",
+    "block.gtceu.super_implosion_compressor.tooltip.1":"§7线圈对该机器的影响方式与§f工业熔炉§7相同。",
     "block.gtceu.super_implosion_compressor.tooltip.2":"支持§b线圈并行",
     "block.gtceu.super_pressure_heat_chamber":"超高压加热仓",
     "block.gtceu.super_pressure_heat_chamber.tooltip.0":"§7一台能提供惊人的热量和压力的机器，能够将不完整的部件融合在一起，制成银河系中已知最坚韧的材料。",
