@@ -31,7 +31,7 @@
     "behaviour.start_core.hellforge.input_heat":"§f可让冥古坩埚升温§l%sMK§r§f",
     "behaviour.start_core.hellforge.max_heat":"§c该加热液的最高温度为§l%sMK",
     "block.start_core.abydos_marker":"阿拜多斯",
-    "block.start_core.abyssal_containment_room":"阿拜多斯隔离室",
+    "block.start_core.abyssal_containment_room":"深渊隔离室",
     "block.start_core.abyssal_containment_room_line":"§5§l至真深渊",
     "block.start_core.abyssal_harvester":"深渊收割者",
     "block.start_core.advanced_fusion_coil":"进阶聚变线圈方块",
