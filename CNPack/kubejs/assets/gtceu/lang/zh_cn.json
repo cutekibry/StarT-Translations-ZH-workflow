@@ -369,7 +369,7 @@
     "block.gtceu.super_pressure_heat_chamber":"超高压加热仓",
     "block.gtceu.super_pressure_heat_chamber.tooltip.0":"§7一台能提供惊人的热量和压力的机器，能够将不完整的部件融合在一起，制成银河系中已知最坚韧的材料。",
     "block.gtceu.super_pressure_heat_chamber.tooltip.1":"可使用§3并行§r控制仓且支持§c亚时间刻并行§r",
-    "block.gtceu.super_vacuum_freezer":"北极冷却装置",
+    "block.gtceu.super_vacuum_freezer":"极寒冷却装置",
     "block.gtceu.super_vacuum_freezer.tooltip.0":"§7让东西稍稍冷却一下。",
     "block.gtceu.super_vacuum_freezer.tooltip.1":"只允许有§b一个§r能源仓",
     "block.gtceu.super_vacuum_freezer.tooltip.2":"支持§b吞吐量提升§r和§c亚时间刻并行",
