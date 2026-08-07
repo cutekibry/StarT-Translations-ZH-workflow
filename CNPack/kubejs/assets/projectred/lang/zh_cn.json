@@ -24,7 +24,7 @@
     "item.projectred_integration.randomizer_gate.tooltip":"有1个输入和3个输出\n当输入信号时，不断在三个方向随机输出信号\n若输入一直为ON，则每游戏刻随机化输出方向。输出变为OFF时，保留最后一次随机的结果持续输出信号。",
     "item.projectred_integration.repeater_gate.tooltip":"有1个输入和1个输出\n将信号延迟一定长度（可调节）\n最低：1t；最高：256t",
     "item.projectred_integration.segment_display_gate.tooltip":"Has 1 bundled input\nDisplays segements based on the active channels in the bundled inputs.",
-    "item.projectred_integration.sequencer_gate.tooltip":"Has 4 outputs\nClick on it to configure the timer\nIt will output from the sides in a clockwise order, with the configured time being the time a side is active before moving on to the next side.",
+    "item.projectred_integration.sequencer_gate.tooltip":"有4个输出\n右键它来调整计时器时间\n它会按照计时器时间顺时针旋转输出方向，时间越长旋转角度越大（当前版本为此功能，与实际功能不符，敬请等待下个版本修复bug）",
     "item.projectred_integration.sr_latch_gate.tooltip":"有2个输入和2个输出\n右侧输入决定前侧输出，左侧输入决定背侧输出\n当右侧输入信号时，前侧输出在左侧输入信号前持续输出信号；接收到左侧信号时背侧输出在右侧输入信号前持续输出信号。若两侧同时输入信号，则不输出信号。（若同时将两侧信号变为OFF，则会随机选择一侧输出信号）",
     "item.projectred_integration.stacking_latch_gate.tooltip":"Has 1 input, 1 output and 1 pair of shared IO\nTHe pair is the write signal, and left is the keep signal. When the write signal receives a pulse, the state of the input will be stored and outputted. When the keep signal receives a pulse, the current state will be kept until the next write pulse. If the input receives a pulse while the write signal is active, it will change the stored state immediately without waiting for the next write pulse.",
     "item.projectred_integration.state_cell_gate.tooltip":"有2个输入和2个输出\n右键它调整计时器时间\n当背侧输入接收到脉冲时，左侧输出会在指定时间内持续输出信号。当输出变为OFF时，前侧输出会输出脉冲。右侧输入会重置计时器并使其暂停",

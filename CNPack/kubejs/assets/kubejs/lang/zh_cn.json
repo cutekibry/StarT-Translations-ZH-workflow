@@ -121,7 +121,7 @@
     "effects.crystals.success.nether":"正当你感受着坐标水晶的回响时，你听到周围不知何处传来的窃窃私语声，奇怪的数字伴随着一片火光和毁灭的地狱景象显现在你眼前。",
     "effects.radiation.message":"§c你因辐射而感到不适……",
     "effects.sand_erosion.message":"§e阿拜多斯的沙子正在侵蚀着你……",
-    "effects.uranium_fever.message":"§aUranium Fever §fHas Done and Got You Down...",
+    "effects.uranium_fever.message":"§a铀狂热§f效果渐渐褪去，你感到乏力...",
     "fluid.kubejs.apple_cider":"苹果酒",
     "fluid.kubejs.berry_wine":"浆果酒",
     "fluid.kubejs.carrot_ale":"胡萝卜酒",
