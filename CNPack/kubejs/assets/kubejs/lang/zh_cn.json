@@ -223,7 +223,7 @@
     "item.kubejs.charcoal_pellet":"木炭颗粒",
     "item.kubejs.chevron.tooltip":"§7星际坐标记录仪",
     "item.kubejs.coin":"星际科技币",
-    "item.kubejs.coin.tooltip":"§7在任务书的商店章节中可消费这些硬币",
+    "item.kubejs.coin.tooltip":"§7在任务书的商店章节中可使用这些硬币",
     "item.kubejs.compass_of_the_flame":"§6烈焰指南针",
     "item.kubejs.compass_of_the_flame.failed":"§7你只能在§4下界§7使用这个物品，待会再试试吧",
     "item.kubejs.compass_of_the_flame.success":"§7最近的神庙在：",
