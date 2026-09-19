@@ -1,9 +1,9 @@
 {
     "behaviour.start_core.bacteria.affinities_header":"§f亲和力：",
     "behaviour.start_core.bacteria.affinity_none":"无",
-    "behaviour.start_core.bacteria.affinity_primary":"§7主要的：%1$s",
-    "behaviour.start_core.bacteria.affinity_secondary":"§7次要的：%1$s",
-    "behaviour.start_core.bacteria.affinity_tertiary":"§7第三的：%1$s",
+    "behaviour.start_core.bacteria.affinity_primary":"§7一级产物：%1$s",
+    "behaviour.start_core.bacteria.affinity_secondary":"§7二级产物：%1$s",
+    "behaviour.start_core.bacteria.affinity_tertiary":"§7三级产物：%1$s",
     "behaviour.start_core.bacteria.any_affinity":"§d可以是其中任意一种亲和力",
     "behaviour.start_core.bacteria.harvester_primary_output":"§7实际的主要流体产出量为§62000mB × 产量",
     "behaviour.start_core.bacteria.harvester_secondary_output":"§7实际的次要流体的产出量为§61240mB × 产量",
